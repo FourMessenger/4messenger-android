@@ -1,0 +1,16 @@
+[package]
+name = "fourmessenger"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+name = "fourmessenger"
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
