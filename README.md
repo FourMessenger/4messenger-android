@@ -1,6 +1,6 @@
 # 4 Messenger — Android App
 
-A native Android WebView wrapper for [fourmessenger.github.io](https://fourmessenger.github.io), built with **Rust** (JNI native library) and **Java** (Android WebView host), compiled into an APK for Android 8+.
+A native Android WebView wrapper for [4mes.dpdns.org](https://4mes.dpdns.org), built with **Rust** (JNI native library) and **Java** (Android WebView host), compiled into an APK for Android 8+.
 
 ---
 

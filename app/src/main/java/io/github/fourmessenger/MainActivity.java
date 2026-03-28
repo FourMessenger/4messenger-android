@@ -43,7 +43,7 @@ import java.util.Locale;
 public class MainActivity extends Activity {
 
     private static final String TAG = "FourMessenger";
-    private static final String APP_URL = "https://fourmessenger.github.io";
+    private static final String APP_URL = "https://4mes.dpdns.org";
     private static final String NOTIFICATION_CHANNEL_ID = "fourmessenger_channel";
     private static final int PERMISSION_REQUEST_CODE = 100;
     private static final int FILE_CHOOSER_REQUEST_CODE = 200;
@@ -134,8 +134,8 @@ public class MainActivity extends Activity {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 String url = request.getUrl().toString();
-                if (url.startsWith("https://fourmessenger.github.io") ||
-                    url.startsWith("http://fourmessenger.github.io")) {
+                if (url.startsWith("https://4mes.dpdns.org") ||
+                    url.startsWith("http://4mes.dpdns.org")) {
                     return false; // Load in WebView
                 }
                 // Open external URLs in browser

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <domain-config cleartextTrafficPermitted="false">
-        <domain includeSubdomains="true">fourmessenger.github.io</domain>
+        <domain includeSubdomains="true">4mes.dpdns.org</domain>
         <trust-anchors>
             <certificates src="system" />
         </trust-anchors>
