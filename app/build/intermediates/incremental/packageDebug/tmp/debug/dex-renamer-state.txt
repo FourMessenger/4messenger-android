@@ -1,0 +1,10 @@
+#Sat Mar 28 17:37:15 UTC 2026
+base.0=/sec/root/4messenger-android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/sec/root/4messenger-android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/sec/root/4messenger-android/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=13/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

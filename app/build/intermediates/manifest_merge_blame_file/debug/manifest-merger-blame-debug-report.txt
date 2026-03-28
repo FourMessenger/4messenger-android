@@ -1,0 +1,241 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.github.fourmessenger"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+13-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:6:5-65
+14-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:7:5-71
+15-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:7:22-68
+16    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+16-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:8:5-80
+16-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:8:22-77
+17    <uses-permission
+17-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:9:5-10:38
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:9:22-77
+19        android:maxSdkVersion="32" />
+19-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:10:9-35
+20    <uses-permission
+20-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:11:5-12:38
+21        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+21-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:11:22-78
+22        android:maxSdkVersion="28" />
+22-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:12:9-35
+23    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+23-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:13:5-76
+23-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:13:22-73
+24    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+24-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:14:5-75
+24-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:14:22-72
+25    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+25-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:15:5-75
+25-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:15:22-72
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+26-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:16:5-77
+26-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:16:22-74
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:17:5-66
+27-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:17:22-63
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:18:5-68
+28-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:18:22-65
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+29-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:19:5-81
+29-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:19:22-78
+30    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+30-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:20:5-88
+30-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:20:22-85
+31
+32    <uses-feature
+32-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:21:5-85
+33        android:name="android.hardware.camera"
+33-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:21:19-57
+34        android:required="false" />
+34-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:21:58-82
+35    <uses-feature
+35-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:22:5-95
+36        android:name="android.hardware.camera.autofocus"
+36-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:22:19-67
+37        android:required="false" />
+37-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:22:68-92
+38    <uses-feature
+38-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:23:5-89
+39        android:name="android.hardware.microphone"
+39-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:23:19-61
+40        android:required="false" />
+40-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:23:62-86
+41
+42    <permission
+42-->[androidx.core:core:1.12.0] /sec/root/.gradle/caches/transforms-3/de8c3b838232e943fc8a6a53f2c25d4a/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+43        android:name="io.github.fourmessenger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.12.0] /sec/root/.gradle/caches/transforms-3/de8c3b838232e943fc8a6a53f2c25d4a/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.12.0] /sec/root/.gradle/caches/transforms-3/de8c3b838232e943fc8a6a53f2c25d4a/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="io.github.fourmessenger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.12.0] /sec/root/.gradle/caches/transforms-3/de8c3b838232e943fc8a6a53f2c25d4a/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.12.0] /sec/root/.gradle/caches/transforms-3/de8c3b838232e943fc8a6a53f2c25d4a/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+47
+48    <application
+48-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:24:5-61:19
+49        android:allowBackup="true"
+49-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:25:9-35
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.12.0] /sec/root/.gradle/caches/transforms-3/de8c3b838232e943fc8a6a53f2c25d4a/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+51        android:debuggable="true"
+52        android:extractNativeLibs="false"
+53        android:hardwareAccelerated="true"
+53-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:32:9-43
+54        android:icon="@mipmap/ic_launcher"
+54-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:26:9-43
+55        android:label="@string/app_name"
+55-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:27:9-41
+56        android:networkSecurityConfig="@xml/network_security_config"
+56-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:33:9-69
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:28:9-54
+58        android:supportsRtl="true"
+58-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:29:9-35
+59        android:theme="@android:style/Theme.NoTitleBar"
+59-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:30:9-56
+60        android:usesCleartextTraffic="true" >
+60-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:31:9-44
+61        <activity
+61-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:34:9-44:20
+62            android:name="io.github.fourmessenger.MainActivity"
+62-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:35:13-41
+63            android:configChanges="orientation|keyboardHidden|screenSize|keyboard|navigation"
+63-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:37:13-94
+64            android:exported="true"
+64-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:36:13-36
+65            android:launchMode="singleTop"
+65-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:38:13-43
+66            android:windowSoftInputMode="adjustResize" >
+66-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:39:13-55
+67            <intent-filter>
+67-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:40:13-43:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:41:17-69
+68-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:41:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:42:17-77
+70-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:42:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <receiver
+74-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:45:9-51:20
+75            android:name="io.github.fourmessenger.BootReceiver"
+75-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:46:13-41
+76            android:exported="true" >
+76-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:47:13-36
+77            <intent-filter>
+77-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:48:13-50:29
+78                <action android:name="android.intent.action.BOOT_COMPLETED" />
+78-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:49:17-79
+78-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:49:25-76
+79            </intent-filter>
+80        </receiver>
+81
+82        <provider
+83            android:name="androidx.core.content.FileProvider"
+83-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:53:13-62
+84            android:authorities="io.github.fourmessenger.fileprovider"
+84-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:54:13-64
+85            android:exported="false"
+85-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:55:13-37
+86            android:grantUriPermissions="true" >
+86-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:56:13-47
+87            <meta-data
+87-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:57:13-59:54
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:58:17-67
+89                android:resource="@xml/file_paths" />
+89-->/sec/root/4messenger-android/app/src/main/AndroidManifest.xml:59:17-51
+90        </provider>
+91        <provider
+91-->[androidx.emoji2:emoji2:1.2.0] /sec/root/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.2.0] /sec/root/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+93            android:authorities="io.github.fourmessenger.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.2.0] /sec/root/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.2.0] /sec/root/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.2.0] /sec/root/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.2.0] /sec/root/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.2.0] /sec/root/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.6.1] /sec/root/.gradle/caches/transforms-3/adfd241d31aa0dc8d9176e9f5dfaa47e/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.6.1] /sec/root/.gradle/caches/transforms-3/adfd241d31aa0dc8d9176e9f5dfaa47e/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.6.1] /sec/root/.gradle/caches/transforms-3/adfd241d31aa0dc8d9176e9f5dfaa47e/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+103                android:value="androidx.startup" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+104        </provider>
+105
+106        <receiver
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+107            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+108            android:directBootAware="false"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+109            android:enabled="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+110            android:exported="true"
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+111            android:permission="android.permission.DUMP" >
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+113                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+116                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+119                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+122                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /sec/root/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+123            </intent-filter>
+124        </receiver>
+125    </application>
+126
+127</manifest>
